@@ -14,28 +14,27 @@ Manages task schedules for RMF and RMF2.
 * ROS 2 Humble
 * ROS 2 Jazzy
 
-
 ## Documentation
 
-See the [documentation](./docs/introduction.md) for more information
+See the [documentation](./docs/introduction.md) for more information.
 
 ## Build From Source
 
-See the [Quick Setup](./docs/build_from_source.md) on how to use it
+See the [Build From Source](./docs/build_from_source.md).
 
 ## Quick Start
 
-### Native Run
+- [Python API Server Demo (Native Run)](./docs/quick_start.md/#native)
+- [Docker](./docs/quick_start.md/#docker)
 
-[Python API Server Demo](./docs/quick_start.md/#native)
+## Data Structures
 
-## Docker
-
-[Quick Start With Docker](./docs/quick_start.md/#docker)
+[Data Structures](./docs/data_structures.md)
 
 ## Support
 
-This repository is developed by ROS Industrial Consortium Asia Pacific
+This repository is developed by ROS Industrial Consortium Asia Pacific.
 
 ## Contributing
+
 Guidelines on contributing to this repo can be found [here](CONTRIBUTING.md).

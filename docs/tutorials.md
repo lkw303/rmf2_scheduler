@@ -58,10 +58,9 @@ The endpoints swagger can be accessed at <http://localhost:8079/docs>.
 
 ### Create a task using REST Endpoints
 
-::: tip
-Please make sure a RMF2 Scheduler Server is running. For more, check out the
-**Quick Start** in the [`rmf2_scheduler` docs](https://rmf-scheduler.readthedocs.io/).
-:::
+> [!NOTE]
+> Please make sure a RMF2 Scheduler Server is running. For more, check out the
+> **Quick Start** in the [`rmf2_scheduler` docs](https://rmf-scheduler.readthedocs.io/).
 
 Let's create a **Task** in the scheduler using the `POST /schedule/edit` API
 and the `TASK_ADD` **ScheduleAction**.
@@ -155,7 +154,7 @@ You should receive a response similar to the following.
 }
 ```
 
-::: tip
-RMF2 scheduler interprets and stores time in UTC timezone by default. The time
-output follows the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601).
-:::
+> [!NOTE]
+> RMF2 scheduler interprets and stores time in UTC timezone by default. The time
+> output follows the [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601).
+
