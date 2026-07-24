@@ -2,15 +2,13 @@
 
 **Repo:** [`rmf2_scheduler`](https://github.com/ros-industrial/rmf2_scheduler)
 
-::: warning Not part of the demo
-The Scheduler is **not** included in the `ros_industrial_demo` stack yet.
-
-It will be added in a future release.
-:::
+> [!WARNING]
+> The Scheduler is **not** included in the `ros_industrial_demo` stack yet.
+> It will be added in a future release.
 
 ## Design
 
-![Robot Task Scheduler architecture](/demo/rts-architecture.png)
+![Robot Task Scheduler architecture](./media/rts-architecture.png)
 
 | Components                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
