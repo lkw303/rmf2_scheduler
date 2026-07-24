@@ -17,62 +17,21 @@ Manages task schedules for RMF and RMF2.
 
 ## Documentation
 
-See the [documentation](https://rmf-scheduler.readthedocs.io/en/latest) on how to use it
+See the [documentation](./docs/introduction.md) for more information
 
-## Quick Setup
+## Build From Source
 
-Create a colcon workspace.
+See the [Quick Setup](./docs/build_from_source.md) on how to use it
 
-```bash
-export COLCON_WS=~/colcon_ws
-mkdir -p $COLCON_WS/src
-cd $COLCON_WS
-```
+## Quick Start
 
-Download the source code.
+### Native Run
 
-```bash
-cd src
-git clone https://github.com/ros-industrial/rmf_scheduler.git
-```
-
-Install dependencies.
-
-```bash
-source /opt/ros/humble/setup.bash
-rosdep install --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
-```
-
-Build.
-```bash
-cd ..
-colcon build
-```
-
-### Quick Demo
-
-- [Python API Server Demo](./rmf2_scheduler_server_py)
+[Python API Server Demo](./docs/quick_start.md/#native)
 
 ## Docker
 
-### Docker Build
-After cloning the repository, run the following commands in the same directory:
-``` bash
-cd ./rmf2_scheduler
-docker build . -t rmf2_scheduler:local
-```
-
-### Docker Run
-After the image is built, you can run and access the container using:
-``` bash
-docker run -it --net=host rmf2_scheduler:local bash
-```
-
-After which you can run the modules from the packages, for example `rmf2_scheduler_server_py`.
-``` bash
-rmf2_scheduler_server_py
-```
-The server should be accessible on your local device on `localhost:8000` as the command was ran with `--net=host`. You can open a browser and navigate to `http://localhost:8000/docs` to see if the swagger webpage is accessible.
+[Quick Start With Docker](./docs/quick_start.md/#docker)
 
 ## Support
 
